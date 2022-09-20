@@ -28,9 +28,9 @@ export const config = {
 
     /** 每日N句 */
     // 金山每日一句
-    CIBA: false,
+    CIBA: true,
     // 每日一言
-    oneTalk:true,
+    oneTalk:false,
     // 土味情话(彩虹屁)
     earthyLoveWords: true,
     // 朋友圈文案
@@ -96,15 +96,15 @@ export const config = {
     },
     {
       // 想要发送的人的名字
-      name: "小红",
+      name: "me",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o-9HH5vV0GB7sTnQzgr0Dv6vD2IQ",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "WS1o1cAsEAUkmAHBTTQtqGudjWa6YIbBHF9A5h9hP50",
+      useTemplateId: "FSIgCUYqVXvkhAnwFNBA53GmRxV5UZ_aanjMqChucUU",
       // 所在省份
-      province: "陕西",
+      province: "甘肃",
       // 所在城市
-      city: "西安",
+      city: "兰州",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '12-10',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -124,11 +124,11 @@ export const config = {
     
     {
       // 想要发送的人的名字
-      name: "小红1",
+      name: "GHM",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "o-9HH5vV0GB7sTnQzgr0Dv6vD2IQ",
+      id: "o-9HH5p2WiVHs2_s3fNXmE-KWpcI",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "D5NN-61qgB6ngrRiANbVpdK2NEiIcdnKdB2XUxXADEU",
+      useTemplateId: "FSIgCUYqVXvkhAnwFNBA53GmRxV5UZ_aanjMqChucUU",
       // 所在省份
       province: "陕西",
       // 所在城市
