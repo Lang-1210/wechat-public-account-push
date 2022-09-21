@@ -28,13 +28,13 @@ export const config = {
 
     /** 每日N句 */
     // 金山每日一句
-    CIBA: true,
+    CIBA: false,
     // 每日一言
-    oneTalk:false,
+    oneTalk:true,
     // 土味情话(彩虹屁)
     earthyLoveWords: true,
     // 朋友圈文案
-    momentCopyrighting: false,
+    momentCopyrighting: true,
     // 毒鸡汤
     poisonChickenSoup: false,
     // 古诗古文
@@ -60,11 +60,11 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "老婆0",
+      name: "me1",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "o-9HH5vV0GB7sTnQzgr0Dv6vD2IQ",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "4WxSeAmHxCI0XhMYrk9ujqSryBOS64oNFjOkvhoN5No",
+      useTemplateId: "E-p6TGORJ2Qr0FB-MNAXaJum3BZLagDKb7jwryw--H4",
       // 所在省份
       province: "甘肃",
       // 所在城市
@@ -96,11 +96,11 @@ export const config = {
     },
     {
       // 想要发送的人的名字
-      name: "me",
+      name: "me2",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o-9HH5vV0GB7sTnQzgr0Dv6vD2IQ",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "FSIgCUYqVXvkhAnwFNBA53GmRxV5UZ_aanjMqChucUU",
+      useTemplateId: "l9-YFwGYpg2WdtbojvML7VTCiSHlSneY0-mVohbrcfE",
       // 所在省份
       province: "甘肃",
       // 所在城市
@@ -119,6 +119,7 @@ export const config = {
       customizedDateList: [
         // 在一起的日子
         {"keyword": "love_day", date: "2021-05-20"},
+        {"keyword": "marry_day", date: "2022-06-23"}
       ]
     },
     
@@ -128,7 +129,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o-9HH5p2WiVHs2_s3fNXmE-KWpcI",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "FSIgCUYqVXvkhAnwFNBA53GmRxV5UZ_aanjMqChucUU",
+      useTemplateId: "E-p6TGORJ2Qr0FB-MNAXaJum3BZLagDKb7jwryw--H4",
       // 所在省份
       province: "陕西",
       // 所在城市
@@ -149,8 +150,6 @@ export const config = {
         {"keyword": "love_day", date: "2021-05-20"},
       ]
     },
-   
-  
     // 你可以不断按格式往下增加
     // ...
   ],
@@ -252,6 +251,12 @@ export const config = {
     {"keyword": "la_la_la", contents: "啦啦啦啦啦啦啦啦啦啦啦啦啦啦 啦啦啦啦啦啦啦啦啦啦啦啦啦啦 啦啦啦啦啦啦啦啦啦啦啦啦啦啦 啦啦啦啦啦啦啦啦啦啦啦啦啦啦 啦啦啦啦啦啦啦啦啦啦啦啦啦啦 啦啦啦啦啦啦啦啦啦啦啦啦啦啦"},
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
+      "因为太喜欢你，所以看谁都像是情敌。",
+      "申请成为你爱里的永久居民。",
+      "你很傻，你很笨，可我还是很羡慕你，因为你有我",
+      "遇见你，就好像捡到了100斤的运气",
+    ]},
+    {"keyword": "copywriting_prattle", contents: [
       "因为太喜欢你，所以看谁都像是情敌。",
       "申请成为你爱里的永久居民。",
       "你很傻，你很笨，可我还是很羡慕你，因为你有我",
