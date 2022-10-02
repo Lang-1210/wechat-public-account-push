@@ -100,7 +100,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o-9HH5vV0GB7sTnQzgr0Dv6vD2IQ",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "lRgQVzcPEioDTtV3FIUx4tOLC3zptdfdX2WEwmZb1qg",
+      useTemplateId: "hmwNnsfAPMx9fmdTlX76JMXNfncGuaPvjzxrWROrWSk",
       // 所在省份
       province: "甘肃",
       // 所在城市
@@ -129,7 +129,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o-9HH5p2WiVHs2_s3fNXmE-KWpcI",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "E-p6TGORJ2Qr0FB-MNAXaJum3BZLagDKb7jwryw--H4",
+      useTemplateId: "hmwNnsfAPMx9fmdTlX76JMXNfncGuaPvjzxrWROrWSk",
       // 所在省份
       province: "陕西",
       // 所在城市
@@ -180,9 +180,9 @@ export const config = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "甘肃",
+  PROVINCE: "",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "兰州",
+  CITY: "",
 
   /** 重要节日相关 */
 
@@ -247,8 +247,7 @@ export const config = {
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
     {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
-    
-    {"keyword": "la_la_la", contents: "啦啦啦啦啦啦啦啦啦啦啦啦啦啦 啦啦啦啦啦啦啦啦啦啦啦啦啦啦 啦啦啦啦啦啦啦啦啦啦啦啦啦啦 啦啦啦啦啦啦啦啦啦啦啦啦啦啦 啦啦啦啦啦啦啦啦啦啦啦啦啦啦 啦啦啦啦啦啦啦啦啦啦啦啦啦啦"},
+
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
       "暴富，暴瘦，爆好看。",
