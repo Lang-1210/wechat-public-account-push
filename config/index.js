@@ -147,7 +147,8 @@ export const config = {
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        {"keyword": "love_day", date: "2021-04-20"},
+        // {"keyword": "love_day", date: "2021-04-20"},
+        {"keyword": "marry_day", date: "2021-04-20"},
       ]
     },
     {
@@ -155,18 +156,18 @@ export const config = {
       name: "ZX",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o-9HH5sLW9TiAmGd8lQum_G0uqO0",
-      // 你想对他发送的模板消息的模板ID
-      useTemplateId: "KrxVhr5kgB0TGKAZldtGlNBbm804y8e2da_zVJXgDzQ",
+      // 你想对他发送的模板消息的模板ID  KrxVhr5kgB0TGKAZldtGlNBbm804y8e2da_zVJXgDzQ
+      useTemplateId: "JViCQGPym0ECaglqQcQmPUwqkpBIkC_TTtpEwE6IWM8",
       // 所在省份
-      province: "上海",
+      province: "甘肃",
       // 所在城市
-      city: "青浦",
+      city: "岷县",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '10-03',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://langxh.top",
+      openUrl: "https://www.langxh.top",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
 
@@ -174,7 +175,7 @@ export const config = {
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        { "keyword": "love_day", date: "2022-11-20" },
+        { "keyword": "marry_day", date: "2022-11-20" },
       ]
     },
      {
@@ -183,17 +184,17 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o-9HH5vV0GB7sTnQzgr0Dv6vD2IQ",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "hmwNnsfAPMx9fmdTlX76JMXNfncGuaPvjzxrWROrWSk",
+      useTemplateId: "JViCQGPym0ECaglqQcQmPUwqkpBIkC_TTtpEwE6IWM8",
       // 所在省份
-      province: "上海",
+      province: "甘肃",
       // 所在城市
-      city: "青浦",
+      city: "岷县",
       // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '10-03',
+      horoscopeDate: '12-10',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://langxh.top",
+      openUrl: "https://www.langxh.top",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
 
@@ -201,7 +202,8 @@ export const config = {
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        { "keyword": "love_day", date: "2022-11-20" },
+        // { "keyword": "love_day", date: "2022-11-20" },
+        { "keyword": "marry_day", date: "2022-11-20" },
       ]
     },
     // 你可以不断按格式往下增加
@@ -312,6 +314,10 @@ export const config = {
       "永远热爱生活，永远满怀期待",
       "百因必有果，下个富婆就是你",
       "暴富，暴瘦，爆好看。",
+      "因为太喜欢你，所以看谁都像是情敌。",
+      "申请成为你爱里的永久居民。",
+      "你很傻，你很笨，可我还是很羡慕你，因为你有我",
+      "遇见你，就好像捡到了100斤的运气",
       "凉风有信，冬月无边。",
       "美女有两种 一种记性不好 另一种我忘了",
       "日子照旧，梦想暴富",
@@ -323,6 +329,10 @@ export const config = {
       "日子照旧，梦想暴富",
       "永远热爱生活，永远满怀期待",
       "百因必有果，下个富婆就是你",
+      "因为太喜欢你，所以看谁都像是情敌。",
+      "申请成为你爱里的永久居民。",
+      "你很傻，你很笨，可我还是很羡慕你，因为你有我",
+      "遇见你，就好像捡到了100斤的运气",
     ]},
     {"keyword": "copywriting_prattle", contents: [
       "因为太喜欢你，所以看谁都像是情敌。",
