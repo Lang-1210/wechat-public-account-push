@@ -153,9 +153,9 @@ export const config = {
     },
     {
       // 想要发送的人的名字
-      name: "ZX",
+      name: "",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "o-9HH5sLW9TiAmGd8lQum_G0uqO0",
+      id: "",
       // 你想对他发送的模板消息的模板ID  KrxVhr5kgB0TGKAZldtGlNBbm804y8e2da_zVJXgDzQ
       useTemplateId: "JViCQGPym0ECaglqQcQmPUwqkpBIkC_TTtpEwE6IWM8",
       // 所在省份
@@ -180,9 +180,9 @@ export const config = {
     },
      {
       // 想要发送的人的名字
-      name: "LangZX",
+      name: "Lang",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "o-9HH5vV0GB7sTnQzgr0Dv6vD2IQ",
+      id: "",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "JViCQGPym0ECaglqQcQmPUwqkpBIkC_TTtpEwE6IWM8",
       // 所在省份
