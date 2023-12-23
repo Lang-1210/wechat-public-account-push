@@ -60,11 +60,11 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "me1",
+      name: "give me",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oNhJM62xRU6yDhKzscIXptqfl39M",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "NjLpDr-5dTm9vO0NMjRKSh8ohS3Akos0FAXql2ik2ck",
+      useTemplateId: "hH5cNl00Nq2r9Wjsq3dOnlXafLfxbn51xINAyw7noeg",
       // 所在省份
       province: "甘肃",
       // 所在城市
@@ -74,7 +74,7 @@ export const config = {
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://langxh.top",
+      openUrl: "https://lang-1210.github.io",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
@@ -86,21 +86,51 @@ export const config = {
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
+        // 认识的日志
+        { "keyword": "renshi_day", date: "2023-05-27" },
         // 在一起的日子
-        {"keyword": "love_day", date: "2022-09-08"},
+        {"keyword": "love_day", date: "2023-12-10"},
         // 结婚纪念日
-        {"keyword": "marry_day", date: "2022-09-09"},
+        // {"keyword": "marry_day", date: "2022-09-09"},
         // 退伍日
-        {"keyword": "ex_day", date: "2022-09-10"},
+        // {"keyword": "ex_day", date: "2022-09-10"},
       ]
     },
     {
       // 想要发送的人的名字
-      name: "me2",
+      name: "宝贝 芊芊",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "o-9HH5vV0GB7sTnQzgr0Dv6vD2IQ",
+      id: "",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "hmwNnsfAPMx9fmdTlX76JMXNfncGuaPvjzxrWROrWSk",
+      useTemplateId: "hH5cNl00Nq2r9Wjsq3dOnlXafLfxbn51xINAyw7noeg",
+      // 所在省份
+      province: "甘肃",
+      // 所在城市
+      city: "兰州",
+      // 新历生日, 仅用作获取星座运势, 格式必须
+      horoscopeDate: '6-25',
+      // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
+      horoscopeDateType: '今日',
+      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
+      openUrl: "https://lang-1210.github.io",
+      // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
+      festivals: [
+     
+      ],
+      // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
+      customizedDateList: [
+        // 在一起的日子
+        { "keyword": "renshi_day", date: "2023-05-27" },
+        { "keyword": "love_day", date: "2023-12-10" },
+      ]
+    },
+    {
+      // 想要发送的人的名字
+      name: "LXH&MQQ",
+      // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: "oNhJM61V6pbdbDxiiEBbubJZD2C8",
+      // 你想对他发送的模板消息的模板ID
+      useTemplateId: "hH5cNl00Nq2r9Wjsq3dOnlXafLfxbn51xINAyw7noeg",
       // 所在省份
       province: "甘肃",
       // 所在城市
@@ -110,63 +140,6 @@ export const config = {
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://langxh.top",
-      // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
-      festivals: [
-     
-      ],
-      // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
-      customizedDateList: [
-        // 在一起的日子
-        // {"keyword": "love_day", date: "2021-04-20"},
-        {"keyword": "marry_day", date: "2021-04-20"},
-      ]
-    },
-    
-    {
-      // 想要发送的人的名字
-      name: "GHM",
-      // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
-      // 你想对他发送的模板消息的模板ID
-      useTemplateId: "hmwNnsfAPMx9fmdTlX76JMXNfncGuaPvjzxrWROrWSk",
-      // 所在省份
-      province: "陕西",
-      // 所在城市
-      city: "西安",
-      // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '12-10',
-      // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
-      horoscopeDateType: '今日',
-      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://langxh.top",
-      // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
-      festivals: [
-     
-      ],
-      // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
-      customizedDateList: [
-        // 在一起的日子
-        // {"keyword": "love_day", date: "2021-04-20"},
-        {"keyword": "marry_day", date: "2021-04-20"},
-      ]
-    },
-    {
-      // 想要发送的人的名字
-      name: "",
-      // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
-      // 你想对他发送的模板消息的模板ID  KrxVhr5kgB0TGKAZldtGlNBbm804y8e2da_zVJXgDzQ
-      useTemplateId: "JViCQGPym0ECaglqQcQmPUwqkpBIkC_TTtpEwE6IWM8",
-      // 所在省份
-      province: "甘肃",
-      // 所在城市
-      city: "岷县",
-      // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '10-03',
-      // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
-      horoscopeDateType: '今日',
-      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://www.langxh.top",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
@@ -175,35 +148,9 @@ export const config = {
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        { "keyword": "marry_day", date: "2022-11-20" },
-      ]
-    },
-     {
-      // 想要发送的人的名字
-      name: "Lang",
-      // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
-      // 你想对他发送的模板消息的模板ID
-      useTemplateId: "JViCQGPym0ECaglqQcQmPUwqkpBIkC_TTtpEwE6IWM8",
-      // 所在省份
-      province: "甘肃",
-      // 所在城市
-      city: "岷县",
-      // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '12-10',
-      // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
-      horoscopeDateType: '今日',
-      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://www.langxh.top",
-      // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
-      festivals: [
-
-      ],
-      // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
-      customizedDateList: [
-        // 在一起的日子
-        // { "keyword": "love_day", date: "2022-11-20" },
-        { "keyword": "marry_day", date: "2022-11-20" },
+        { "keyword": "renshi_day", date: "2023-05-27" },
+        { "keyword": "love_day", date: "2023-12-10" },
+        // { "keyword": "marry_day", date: "2023-05-27" },
       ]
     },
     // 你可以不断按格式往下增加
@@ -216,15 +163,15 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "r5cCfH-J1SpdXNM4hWec6OwcVMCgyE2nIhj2XvHKfgY",
+  CALLBACK_TEMPLATE_ID: "6UN5jollK0P-ovuxfe1YhAtaTUWCc3-D5VljJUj9Ll4",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
     {
       // 一般都填自己
-      name: "me",
+      name: "给我的推送日志",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "o-9HH5hHe27pJ-u8G-8Zmrwze4hA",
+      id: "oNhJM61V6pbdbDxiiEBbubJZD2C8",
     },
     // 你可以不断按格式往下增加
     // ...
