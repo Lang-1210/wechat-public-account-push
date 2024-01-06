@@ -130,7 +130,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oNhJM61V6pbdbDxiiEBbubJZD2C8",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "hH5cNl00Nq2r9Wjsq3dOnlXafLfxbn51xINAyw7noeg",
+      useTemplateId: "1Vi784TdamvFV-iuxBpJu4J78YRWZuWS1RY9yxG1SI8",
       // 所在省份
       province: "甘肃",
       // 所在城市
@@ -280,6 +280,10 @@ export const config = {
       "申请成为你爱里的永久居民。",
       "你很傻，你很笨，可我还是很羡慕你，因为你有我",
       "遇见你，就好像捡到了100斤的运气",
+      "😜今日份的快乐源泉来啦！",
+      "🌈阳光正好，微风不燥，享受这美好的一天。",
+      "📸记录生活中的小美好，发现身边的小确幸。",
+      "💖保持可爱，保持开心，享受每一天的阳光！"
     ]},
     {"keyword": "copywriting_prattle", contents: [
       "因为太喜欢你，所以看谁都像是情敌。",
