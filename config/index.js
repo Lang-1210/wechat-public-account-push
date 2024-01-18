@@ -28,13 +28,13 @@ export const config = {
 
     /** 每日N句 */
     // 金山每日一句
-    CIBA: false,
+    CIBA: true,
     // 每日一言
     oneTalk:true,
     // 土味情话(彩虹屁)
     earthyLoveWords: true,
     // 朋友圈文案
-    momentCopyrighting: true,
+    momentCopyrighting: false,
     // 毒鸡汤
     poisonChickenSoup: false,
     // 古诗古文
@@ -104,9 +104,9 @@ export const config = {
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "1Vi784TdamvFV-iuxBpJu4J78YRWZuWS1RY9yxG1SI8",
       // 所在省份
-      province: "福建",
+      province: "天津",
       // 所在城市
-      city: "厦门",
+      city: "天津",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '6-25',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
