@@ -64,11 +64,11 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oNhJM62xRU6yDhKzscIXptqfl39M",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "BkytJaldqZ5SwGwn1p-P1b5IWy2J70CBUOzUdf82j94",
+      useTemplateId: "x-aWnHNVQsbJRbOyI6x4d1pHk-iPOVVn0TvKVFkGSW8",
       // 所在省份
-      province: "天津",
+      province: "甘肃",
       // 所在城市
-      city: "河西",
+      city: "兰州",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '12-10',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -102,11 +102,11 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到 oNhJM62WEMvthh1-djoZFLuBJvcI
       id: "",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "BkytJaldqZ5SwGwn1p-P1b5IWy2J70CBUOzUdf82j94",
+      useTemplateId: "x-aWnHNVQsbJRbOyI6x4d1pHk-iPOVVn0TvKVFkGSW8",
       // 所在省份
-      province: "甘肃",
+      province: "天津",
       // 所在城市
-      city: "兰州",
+      city: "河西",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '6-25',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -130,11 +130,11 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oNhJM61V6pbdbDxiiEBbubJZD2C8",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "BkytJaldqZ5SwGwn1p-P1b5IWy2J70CBUOzUdf82j94",
+      useTemplateId: "x-aWnHNVQsbJRbOyI6x4d1pHk-iPOVVn0TvKVFkGSW8",
       // 所在省份
-      province: "天津",
+      province: "甘肃",
       // 所在城市
-      city: "河西",
+      city: "兰州",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '12-10',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -300,10 +300,15 @@ export const config = {
       "借问汉宫谁得似，可怜飞燕倚新妆。"
     ]},
     {"keyword": "copywriting_prattle", contents: [
-      "因为太喜欢你，所以看谁都像是情敌。",
-      "申请成为你爱里的永久居民。",
-      "你很傻，你很笨，可我还是很羡慕你，因为你有我",
-      "遇见你，就好像捡到了100斤的运气",
+      "海风不散玫瑰，月色难舍皎皎",
+      "千千万万个可能里我只选择你",
+      "那片海的浪不会停我对你的爱也是",
+      "因为有很好的人，所以生活很有意思",
+      "你记得花花就不会枯萎你记得我我就在",
+      "会见面的，再等等，等春天的温柔长满枝头",
+      "比起新人新事，好像旧人旧事更浪漫一点",
+      "是你就好我的意思是只要是你一切都好",
+      "如果你也正在看月亮那就当我们见过面了"
     ]},
     // 你可以不断按格式往下增加
     // ...
