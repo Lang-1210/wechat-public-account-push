@@ -61,8 +61,8 @@ export const config = {
     {
       // 想要发送的人的名字
       name: "give me",
-      // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oNhJM62xRU6yDhKzscIXptqfl39M",
+      // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到oNhJM62xRU6yDhKzscIXptqfl39M
+      id: "",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "x-aWnHNVQsbJRbOyI6x4d1pHk-iPOVVn0TvKVFkGSW8",
       // 所在省份
@@ -100,7 +100,7 @@ export const config = {
       // 想要发送的人的名字
       name: "芊芊",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到 oNhJM62WEMvthh1-djoZFLuBJvcI
-      id: "oNhJM62WEMvthh1-djoZFLuBJvcI",
+      id: "",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "N9xXPW9Aml6vwWiCYo_bIADNo6sUOk4g33seBuDKeNk",
       // 所在省份
@@ -127,8 +127,8 @@ export const config = {
     {
       // 想要发送的人的名字
       name: "LXH",
-      // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oNhJM61V6pbdbDxiiEBbubJZD2C8",
+      // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到oNhJM61V6pbdbDxiiEBbubJZD2C8
+      id: "",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "N9xXPW9Aml6vwWiCYo_bIADNo6sUOk4g33seBuDKeNk",
       // 所在省份
